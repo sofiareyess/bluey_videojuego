@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 09141297218151442a20fcf0507539f8
+guid: dd0e7e6e67b9d6d469959535c73c34bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1942915522859564246
-    second: IMG_0092_0
+      213: 2089888101670248833
+    second: hormigoxxo_0
   - first:
-      213: -8747667901472166117
-    second: IMG_0092_1
+      213: -3076870719114224397
+    second: hormigoxxo_1
   - first:
-      213: -2512239156656236662
-    second: IMG_0092_2
+      213: -7781609038440543904
+    second: hormigoxxo_2
   - first:
-      213: -9026875499795022490
-    second: IMG_0092_3
+      213: -6948665094950557126
+    second: hormigoxxo_3
   - first:
-      213: -5067446247313181061
-    second: IMG_0092_4
+      213: -5266611772730316666
+    second: hormigoxxo_4
   - first:
-      213: 5022867891386939626
-    second: IMG_0092_5
+      213: 5079407129494096938
+    second: hormigoxxo_5
   - first:
-      213: -6346133581177528528
-    second: IMG_0092_6
+      213: 3686995098221223111
+    second: hormigoxxo_6
   - first:
-      213: 9037261784360628698
-    second: IMG_0092_7
+      213: -5338033899063951207
+    second: hormigoxxo_7
   - first:
-      213: 4201050930742178266
-    second: IMG_0092_8
+      213: 5336590112501036987
+    second: hormigoxxo_8
   - first:
-      213: 1066666448959629623
-    second: IMG_0092_9
+      213: -3515704104572616865
+    second: hormigoxxo_9
   - first:
-      213: 7435779204475962440
-    second: IMG_0092_10
+      213: 143038438679771459
+    second: hormigoxxo_10
   - first:
-      213: 9036600908761191196
-    second: IMG_0092_11
+      213: 2902533173870999166
+    second: hormigoxxo_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,19 +143,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: VisionOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -185,7 +172,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_0092_0
+      name: hormigoxxo_0
       rect:
         serializedVersion: 2
         x: 34
@@ -200,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a230d5f30a06905e0800000000000000
-      internalID: -1942915522859564246
+      spriteID: 181ee50e726c00d10800000000000000
+      internalID: 2089888101670248833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_1
+      name: hormigoxxo_1
       rect:
         serializedVersion: 2
         x: 194
@@ -222,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1f2aa7046a0a9680800000000000000
-      internalID: -8747667901472166117
+      spriteID: 3fc55670262cc45d0800000000000000
+      internalID: -3076870719114224397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_2
+      name: hormigoxxo_2
       rect:
         serializedVersion: 2
         x: 354
@@ -244,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a879da42ccbb22dd0800000000000000
-      internalID: -2512239156656236662
+      spriteID: 06948caeecb220490800000000000000
+      internalID: -7781609038440543904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_3
+      name: hormigoxxo_3
       rect:
         serializedVersion: 2
         x: 514
@@ -266,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66d7a033f881ab280800000000000000
-      internalID: -9026875499795022490
+      spriteID: a3ae05869e1619f90800000000000000
+      internalID: -6948665094950557126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_4
+      name: hormigoxxo_4
       rect:
         serializedVersion: 2
         x: 674
@@ -288,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b76f28e8c70dca9b0800000000000000
-      internalID: -5067446247313181061
+      spriteID: 688e4841f7c39e6b0800000000000000
+      internalID: -5266611772730316666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_5
+      name: hormigoxxo_5
       rect:
         serializedVersion: 2
         x: 834
@@ -310,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae875d32cbfc4b540800000000000000
-      internalID: 5022867891386939626
+      spriteID: a2c05175fddad7640800000000000000
+      internalID: 5079407129494096938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_6
+      name: hormigoxxo_6
       rect:
         serializedVersion: 2
         x: 994
@@ -332,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03f5cb491210ee7a0800000000000000
-      internalID: -6346133581177528528
+      spriteID: 7cc151ed186da2330800000000000000
+      internalID: 3686995098221223111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_7
+      name: hormigoxxo_7
       rect:
         serializedVersion: 2
         x: 1154
@@ -354,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1370f16bdca6d70800000000000000
-      internalID: 9037261784360628698
+      spriteID: 990cc4f637e7be5b0800000000000000
+      internalID: -5338033899063951207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_8
+      name: hormigoxxo_8
       rect:
         serializedVersion: 2
         x: 1314
@@ -376,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1363a30912d4a30800000000000000
-      internalID: 4201050930742178266
+      spriteID: bb77c7fce606f0a40800000000000000
+      internalID: 5336590112501036987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_9
+      name: hormigoxxo_9
       rect:
         serializedVersion: 2
         x: 1474
@@ -398,14 +385,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 739e010eb7f8dce00800000000000000
-      internalID: 1066666448959629623
+      spriteID: f5ff09f6eb5b53fc0800000000000000
+      internalID: -3515704104572616865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_10
+      name: hormigoxxo_10
       rect:
         serializedVersion: 2
         x: 1634
@@ -420,14 +407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 844c60f3ac1313760800000000000000
-      internalID: 7435779204475962440
+      spriteID: 349fbbeb3bc2cf100800000000000000
+      internalID: 143038438679771459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_11
+      name: hormigoxxo_11
       rect:
         serializedVersion: 2
         x: 1794
@@ -442,8 +429,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c13dea706a4786d70800000000000000
-      internalID: 9036600908761191196
+      spriteID: e763e591b8ed74820800000000000000
+      internalID: 2902533173870999166
       vertices: []
       indices: 
       edges: []
@@ -461,7 +448,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hormigoxxo_0: 2089888101670248833
+      hormigoxxo_1: -3076870719114224397
+      hormigoxxo_10: 143038438679771459
+      hormigoxxo_11: 2902533173870999166
+      hormigoxxo_2: -7781609038440543904
+      hormigoxxo_3: -6948665094950557126
+      hormigoxxo_4: -5266611772730316666
+      hormigoxxo_5: 5079407129494096938
+      hormigoxxo_6: 3686995098221223111
+      hormigoxxo_7: -5338033899063951207
+      hormigoxxo_8: 5336590112501036987
+      hormigoxxo_9: -3515704104572616865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
