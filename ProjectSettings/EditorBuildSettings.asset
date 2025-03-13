@@ -6,14 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Flappy_Scenes/FlappyHormigOXXO.unity
+    path: Assets/Scenes/FlappyHormigOXXO.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Flappy_Scenes/EndGame_HormiOXXO.unity
+    path: Assets/Scenes/EndGame_HormiOXXO.unity
     guid: 17a792d9f4b9c99488b10d84d9be3ac4
   - enabled: 1
-    path: Assets/Scenes/Flappy_Scenes/Stop_FlappyH.unity
+    path: Assets/Scenes/Stop_FlappyH.unity
     guid: eb4d186935c16f24ea99d6398399e6cc
+  - enabled: 1
+    path: Assets/Scenes/GameSceneBlastoxxo.unity
+    guid: 0aa62b9a700b65b4f895e8a72cfe256c
+  - enabled: 1
+    path: Assets/Scenes/PauseSceneBlastoxxo.unity
+    guid: 878fcf5c42d8efc498d82f8b9562532b
+  - enabled: 1
+    path: Assets/Scenes/GameOverSceneBlastoxxo.unity
+    guid: 7d14f463b7750644f8ca154e31941e31
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
