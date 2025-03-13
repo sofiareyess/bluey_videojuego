@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 public class GameOverBlastoxxo : MonoBehaviour
 {
     public void ExitMinigame(){
-        //SceneManager.LoadScene("Tycoon");
-        Debug.Log("Sale de minijuego y va a Tycoon");
+        SceneManager.LoadScene("OxxoScene");
+        //Debug.Log("Sale de minijuego y va a Tycoon");
     }
     public void PlayAgain(){
         SceneManager.LoadScene("GameSceneBlastoxxo");
-        Debug.Log("Reinicia minijuego");
+        //Debug.Log("Reinicia minijuego");
     }
     void Start() {
         
