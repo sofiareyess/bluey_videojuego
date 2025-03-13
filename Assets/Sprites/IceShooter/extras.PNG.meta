@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 9066ae9fe9ca46c4d99e0df8d130399b
+guid: 7611f816b25b9ea45bc358f4567ff761
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7675826601332790545
-    second: coin_0
+      213: 6120671361122809635
+    second: extras_0
+  - first:
+      213: -5334450844360521948
+    second: extras_1
+  - first:
+      213: 5401452955788356006
+    second: extras_2
+  - first:
+      213: 3066928975942624311
+    second: extras_3
+  - first:
+      213: -138565202402173457
+    second: extras_4
+  - first:
+      213: -1448132288831425059
+    second: extras_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,13 +167,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coin_0
+      name: extras_0
       rect:
         serializedVersion: 2
-        x: 323
-        y: 458
-        width: 434
-        height: 434
+        x: 433
+        y: 619
+        width: 932
+        height: 932
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +182,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1155fe920a3068a60800000000000000
-      internalID: 7675826601332790545
+      spriteID: 327b1aa9c2ef0f450800000000000000
+      internalID: 6120671361122809635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extras_1
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 619
+        width: 932
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427cb1e583938f5b0800000000000000
+      internalID: -5334450844360521948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extras_2
+      rect:
+        serializedVersion: 2
+        x: 4401
+        y: 619
+        width: 932
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9afbc58d0d5fa40800000000000000
+      internalID: 5401452955788356006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extras_3
+      rect:
+        serializedVersion: 2
+        x: 6447
+        y: 619
+        width: 932
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734a96287abef8a20800000000000000
+      internalID: 3066928975942624311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extras_4
+      rect:
+        serializedVersion: 2
+        x: 8431
+        y: 619
+        width: 932
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed969cbea7b31ef0800000000000000
+      internalID: -138565202402173457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extras_5
+      rect:
+        serializedVersion: 2
+        x: 10353
+        y: 619
+        width: 932
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5fd681b5337ebe0800000000000000
+      internalID: -1448132288831425059
       vertices: []
       indices: 
       edges: []
@@ -186,7 +311,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      extras_0: 6120671361122809635
+      extras_1: -5334450844360521948
+      extras_2: 5401452955788356006
+      extras_3: 3066928975942624311
+      extras_4: -138565202402173457
+      extras_5: -1448132288831425059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

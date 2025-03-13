@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 18aef0ed50eec7542b7ad24f7ba71f52
+guid: 2fa4f735495681145aeea689b932ef59
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3337038689812066966
-    second: pixil-frame-0_0
+      213: -2536705513236910331
+    second: hielos_0
+  - first:
+      213: 278684323802365722
+    second: hielos_1
+  - first:
+      213: 1417495447546989760
+    second: hielos_2
+  - first:
+      213: 2370923929450740572
+    second: hielos_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,13 +161,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0_0
+      name: hielos_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 10000
-        height: 3401
+        x: 495
+        y: 433
+        width: 1056
+        height: 1056
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +176,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6d4404fdf470b1d0800000000000000
-      internalID: -3337038689812066966
+      spriteID: 50f2db796cfcbccd0800000000000000
+      internalID: -2536705513236910331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hielos_1
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 619
+        width: 1056
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fb5bc7ae51ed300800000000000000
+      internalID: 278684323802365722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hielos_2
+      rect:
+        serializedVersion: 2
+        x: 4401
+        y: 495
+        width: 1056
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc85cd6994fba310800000000000000
+      internalID: 1417495447546989760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hielos_3
+      rect:
+        serializedVersion: 2
+        x: 6385
+        y: 433
+        width: 1056
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b726c80c637e020800000000000000
+      internalID: 2370923929450740572
       vertices: []
       indices: 
       edges: []
@@ -186,7 +261,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hielos_0: -2536705513236910331
+      hielos_1: 278684323802365722
+      hielos_2: 1417495447546989760
+      hielos_3: 2370923929450740572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

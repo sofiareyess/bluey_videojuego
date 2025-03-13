@@ -1,43 +1,61 @@
 fileFormatVersion: 2
-guid: 09141297218151442a20fcf0507539f8
+guid: 713cce921c8cd314dabe91890e39077d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1942915522859564246
-    second: IMG_0092_0
+      213: -5118385415636598081
+    second: oxxo_0
   - first:
-      213: -8747667901472166117
-    second: IMG_0092_1
+      213: -2736328983770942892
+    second: oxxo_1
   - first:
-      213: -2512239156656236662
-    second: IMG_0092_2
+      213: -8211523443933345829
+    second: oxxo_2
   - first:
-      213: -9026875499795022490
-    second: IMG_0092_3
+      213: -4912328283506447643
+    second: oxxo_3
   - first:
-      213: -5067446247313181061
-    second: IMG_0092_4
+      213: -9083607603344370551
+    second: oxxo_4
   - first:
-      213: 5022867891386939626
-    second: IMG_0092_5
+      213: -8704107143747673528
+    second: oxxo_5
   - first:
-      213: -6346133581177528528
-    second: IMG_0092_6
+      213: -2450931514633078792
+    second: oxxo_6
   - first:
-      213: 9037261784360628698
-    second: IMG_0092_7
+      213: 2597460142787653989
+    second: oxxo_7
   - first:
-      213: 4201050930742178266
-    second: IMG_0092_8
+      213: 6895841093731432064
+    second: oxxo_8
   - first:
-      213: 1066666448959629623
-    second: IMG_0092_9
+      213: -3247034051422936575
+    second: oxxo_9
   - first:
-      213: 7435779204475962440
-    second: IMG_0092_10
+      213: -1317373332086788270
+    second: oxxo_10
   - first:
-      213: 9036600908761191196
-    second: IMG_0092_11
+      213: 8998988057107917919
+    second: oxxo_11
+  - first:
+      213: 3056069389341950018
+    second: oxxo_12
+  - first:
+      213: -3870672646675217967
+    second: oxxo_13
+  - first:
+      213: -4432240249944225379
+    second: oxxo_14
+  - first:
+      213: 3562010460305340290
+    second: oxxo_15
+  - first:
+      213: -8744486540515030539
+    second: oxxo_16
+  - first:
+      213: 8120294864600767466
+    second: oxxo_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -185,13 +203,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_0092_0
+      name: oxxo_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 87
-        height: 156
+        x: 1319
+        y: 809
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a230d5f30a06905e0800000000000000
-      internalID: -1942915522859564246
+      spriteID: fb2c0753597d7f8b0800000000000000
+      internalID: -5118385415636598081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_1
+      name: oxxo_1
       rect:
         serializedVersion: 2
-        x: 194
-        y: 0
-        width: 87
-        height: 156
+        x: 3239
+        y: 809
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1f2aa7046a0a9680800000000000000
-      internalID: -8747667901472166117
+      spriteID: 4523ab5794b960ad0800000000000000
+      internalID: -2736328983770942892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_2
+      name: oxxo_2
       rect:
         serializedVersion: 2
-        x: 354
-        y: 0
-        width: 87
-        height: 151
+        x: 12839
+        y: 809
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a879da42ccbb22dd0800000000000000
-      internalID: -2512239156656236662
+      spriteID: bd78f8b2feeca0e80800000000000000
+      internalID: -8211523443933345829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_3
+      name: oxxo_3
       rect:
         serializedVersion: 2
-        x: 514
-        y: 0
-        width: 87
-        height: 151
+        x: 284
+        y: 269
+        width: 812
+        height: 527
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66d7a033f881ab280800000000000000
-      internalID: -9026875499795022490
+      spriteID: 5ea6e79e377e3dbb0800000000000000
+      internalID: -4912328283506447643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_4
+      name: oxxo_4
       rect:
         serializedVersion: 2
-        x: 674
-        y: 0
-        width: 87
-        height: 151
+        x: 2204
+        y: 269
+        width: 812
+        height: 527
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +306,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b76f28e8c70dca9b0800000000000000
-      internalID: -5067446247313181061
+      spriteID: 9841f93030b80f180800000000000000
+      internalID: -9083607603344370551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_5
+      name: oxxo_5
       rect:
         serializedVersion: 2
-        x: 834
-        y: 0
-        width: 87
-        height: 156
+        x: 4334
+        y: 269
+        width: 317
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae875d32cbfc4b540800000000000000
-      internalID: 5022867891386939626
+      spriteID: 842eaf94bacc43780800000000000000
+      internalID: -8704107143747673528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_6
+      name: oxxo_6
       rect:
         serializedVersion: 2
-        x: 994
-        y: 0
-        width: 87
-        height: 156
+        x: 5099
+        y: 599
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03f5cb491210ee7a0800000000000000
-      internalID: -6346133581177528528
+      spriteID: 8f73c75e5ca8cfdd0800000000000000
+      internalID: -2450931514633078792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_7
+      name: oxxo_7
       rect:
         serializedVersion: 2
-        x: 1154
-        y: 0
-        width: 87
-        height: 156
+        x: 6059
+        y: 269
+        width: 1217
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,20 +372,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1370f16bdca6d70800000000000000
-      internalID: 9037261784360628698
+      spriteID: 561f719ec380c0420800000000000000
+      internalID: 2597460142787653989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_8
+      name: oxxo_8
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 0
-        width: 87
-        height: 160
+        x: 8069
+        y: 419
+        width: 1052
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1363a30912d4a30800000000000000
-      internalID: 4201050930742178266
+      spriteID: 086376360f2f2bf50800000000000000
+      internalID: 6895841093731432064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_9
+      name: oxxo_9
       rect:
         serializedVersion: 2
-        x: 1474
-        y: 0
-        width: 87
-        height: 160
+        x: 10409
+        y: 419
+        width: 257
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,20 +416,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 739e010eb7f8dce00800000000000000
-      internalID: 1066666448959629623
+      spriteID: 102a657dbb730f2d0800000000000000
+      internalID: -3247034051422936575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_10
+      name: oxxo_10
       rect:
         serializedVersion: 2
-        x: 1634
-        y: 0
-        width: 87
-        height: 160
+        x: 12104
+        y: 464
+        width: 92
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,20 +438,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 844c60f3ac1313760800000000000000
-      internalID: 7435779204475962440
+      spriteID: 25fe4682fefb7bde0800000000000000
+      internalID: -1317373332086788270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_0092_11
+      name: oxxo_11
       rect:
         serializedVersion: 2
-        x: 1794
-        y: 0
-        width: 87
-        height: 156
+        x: 12224
+        y: 464
+        width: 107
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -442,8 +460,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c13dea706a4786d70800000000000000
-      internalID: 9036600908761191196
+      spriteID: f5c66e195f3d2ec70800000000000000
+      internalID: 8998988057107917919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oxxo_12
+      rect:
+        serializedVersion: 2
+        x: 12374
+        y: 464
+        width: 92
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2400ca8fae6596a20800000000000000
+      internalID: 3056069389341950018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oxxo_13
+      rect:
+        serializedVersion: 2
+        x: 12584
+        y: 464
+        width: 77
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d14a1d4cbb984ac0800000000000000
+      internalID: -3870672646675217967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oxxo_14
+      rect:
+        serializedVersion: 2
+        x: 12719
+        y: 464
+        width: 77
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99c2e6c9f48d72c0800000000000000
+      internalID: -4432240249944225379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oxxo_15
+      rect:
+        serializedVersion: 2
+        x: 12854
+        y: 464
+        width: 77
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287b9bc24adce6130800000000000000
+      internalID: 3562010460305340290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oxxo_16
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 14
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9ca6952d755a680800000000000000
+      internalID: -8744486540515030539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oxxo_17
+      rect:
+        serializedVersion: 2
+        x: 12644
+        y: 14
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb15fbf72511b070800000000000000
+      internalID: 8120294864600767466
       vertices: []
       indices: 
       edges: []
@@ -461,7 +611,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oxxo_0: -5118385415636598081
+      oxxo_1: -2736328983770942892
+      oxxo_10: -1317373332086788270
+      oxxo_11: 8998988057107917919
+      oxxo_12: 3056069389341950018
+      oxxo_13: -3870672646675217967
+      oxxo_14: -4432240249944225379
+      oxxo_15: 3562010460305340290
+      oxxo_16: -8744486540515030539
+      oxxo_17: 8120294864600767466
+      oxxo_2: -8211523443933345829
+      oxxo_3: -4912328283506447643
+      oxxo_4: -9083607603344370551
+      oxxo_5: -8704107143747673528
+      oxxo_6: -2450931514633078792
+      oxxo_7: 2597460142787653989
+      oxxo_8: 6895841093731432064
+      oxxo_9: -3247034051422936575
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

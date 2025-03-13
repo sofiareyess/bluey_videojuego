@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 96e47ff1dd6477049ac6a7e117911109
+guid: c5e4fad2a38dde94eb1421b56a1cbaf2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6120671361122809635
-    second: extras_0
+      213: 5109264068818659072
+    second: cafe animation_0
   - first:
-      213: -5334450844360521948
-    second: extras_1
+      213: -1026900048468307582
+    second: cafe animation_1
   - first:
-      213: 5401452955788356006
-    second: extras_2
+      213: -3631005244643752951
+    second: cafe animation_2
   - first:
-      213: 3066928975942624311
-    second: extras_3
+      213: 257095358383025524
+    second: cafe animation_3
   - first:
-      213: -138565202402173457
-    second: extras_4
+      213: -666185786313637152
+    second: cafe animation_4
   - first:
-      213: -1448132288831425059
-    second: extras_5
+      213: 8253571142726256668
+    second: cafe animation_5
+  - first:
+      213: -1253706457220946486
+    second: cafe animation_6
+  - first:
+      213: -3708802257132409874
+    second: cafe animation_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -167,13 +173,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: extras_0
+      name: cafe animation_0
       rect:
         serializedVersion: 2
-        x: 433
-        y: 619
-        width: 932
-        height: 932
+        x: 371
+        y: 61
+        width: 1242
+        height: 1304
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 327b1aa9c2ef0f450800000000000000
-      internalID: 6120671361122809635
+      spriteID: 0076a9db990c7e640800000000000000
+      internalID: 5109264068818659072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: extras_1
+      name: cafe animation_1
       rect:
         serializedVersion: 2
-        x: 2417
-        y: 619
-        width: 932
-        height: 932
+        x: 2355
+        y: 61
+        width: 1242
+        height: 1490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 427cb1e583938f5b0800000000000000
-      internalID: -5334450844360521948
+      spriteID: 281173fb8d7bfb1f0800000000000000
+      internalID: -1026900048468307582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: extras_2
+      name: cafe animation_2
       rect:
         serializedVersion: 2
-        x: 4401
-        y: 619
-        width: 932
-        height: 932
+        x: 4339
+        y: 61
+        width: 1242
+        height: 1552
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a9afbc58d0d5fa40800000000000000
-      internalID: 5401452955788356006
+      spriteID: 904cd67c7f31c9dc0800000000000000
+      internalID: -3631005244643752951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: extras_3
+      name: cafe animation_3
       rect:
         serializedVersion: 2
-        x: 6447
-        y: 619
-        width: 932
-        height: 870
+        x: 6323
+        y: 61
+        width: 1242
+        height: 1738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 734a96287abef8a20800000000000000
-      internalID: 3066928975942624311
+      spriteID: 47d62d5cdd2619300800000000000000
+      internalID: 257095358383025524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: extras_4
+      name: cafe animation_4
       rect:
         serializedVersion: 2
-        x: 8431
-        y: 619
-        width: 932
-        height: 870
+        x: 8307
+        y: 61
+        width: 1242
+        height: 1862
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fed969cbea7b31ef0800000000000000
-      internalID: -138565202402173457
+      spriteID: 0e28c549e8b31c6f0800000000000000
+      internalID: -666185786313637152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: extras_5
+      name: cafe animation_5
       rect:
         serializedVersion: 2
-        x: 10353
-        y: 619
-        width: 932
-        height: 932
+        x: 10291
+        y: 61
+        width: 1242
+        height: 1738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +298,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd5fd681b5337ebe0800000000000000
-      internalID: -1448132288831425059
+      spriteID: c180d9a99339a8270800000000000000
+      internalID: 8253571142726256668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cafe animation_6
+      rect:
+        serializedVersion: 2
+        x: 12275
+        y: 61
+        width: 1242
+        height: 1552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac56bbc9e90f99ee0800000000000000
+      internalID: -1253706457220946486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cafe animation_7
+      rect:
+        serializedVersion: 2
+        x: 14259
+        y: 61
+        width: 1242
+        height: 1490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeba4794fffa78cc0800000000000000
+      internalID: -3708802257132409874
       vertices: []
       indices: 
       edges: []
@@ -311,7 +361,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cafe animation_0: 5109264068818659072
+      cafe animation_1: -1026900048468307582
+      cafe animation_2: -3631005244643752951
+      cafe animation_3: 257095358383025524
+      cafe animation_4: -666185786313637152
+      cafe animation_5: 8253571142726256668
+      cafe animation_6: -1253706457220946486
+      cafe animation_7: -3708802257132409874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
