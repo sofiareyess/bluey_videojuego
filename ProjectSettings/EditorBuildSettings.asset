@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IceShooterScene.unity
     guid: 8810fb9094d9f5e488460c54b19a4d81
+  - enabled: 1
+    path: Assets/Scenes/ShopScene.unity
+    guid: 0d587f0eaa9f2f949b59b9a6da3166cc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
