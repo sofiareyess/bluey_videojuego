@@ -8,4 +8,10 @@ public class GameOverScript : MonoBehaviour
     {
         SceneManager.LoadScene("FlappyHormigOXXO"); 
     }
+
+    // te lleva al menú
+    public void ExitGame()
+    {
+        SceneManager.LoadScene("OxxoScene");
+    }
 }

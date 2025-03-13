@@ -11,8 +11,9 @@ public class PauseMenuBlastoxxo : MonoBehaviour
         SceneManager.LoadScene("GameSceneBlastoxxo");
         Debug.Log("Reinicia minijuego");
     }
+    
     public void ExitMinigame(){
-        //SceneManager.LoadScene("Tycoon");
+        SceneManager.LoadScene("OxxoScene");
         Debug.Log("Sale de minijuego y va a Tycoon");
     }
     void Start(){    

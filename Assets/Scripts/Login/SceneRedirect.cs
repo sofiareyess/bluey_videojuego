@@ -18,17 +18,14 @@ public class SceneRedirect : MonoBehaviour
         SceneManager.LoadScene("IceShooterScene");
     }
 
-    // AUN NO SE COMO SE LLAMAN LAS ESCENAS DE JUEGO DE ESTOS MINIJUEGOS
-    // CHECAR EL NOMBRE
-
     // Abre la escena de juego de BlastOxxo
     public void Blast() {
-        SceneManager.LoadScene("BlastScene");
+        SceneManager.LoadScene("GameSceneBlastoxxo");
     }
 
     // Abre la escena de juego de Flappy
     public void Flappy() {
-        SceneManager.LoadScene("FlappyScene");
+        SceneManager.LoadScene("FlappyHormigOXXO");
     }
 
     // Abre la escena del Oxxo
