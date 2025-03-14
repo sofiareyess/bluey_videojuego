@@ -33,6 +33,12 @@ public class SceneRedirect : MonoBehaviour
         SceneManager.LoadScene("OxxoScene");
     }
 
+    //abre la tienda
+    public void Store()
+    {
+        SceneManager.LoadScene("ShopScene");
+    }
+
 }
 
 

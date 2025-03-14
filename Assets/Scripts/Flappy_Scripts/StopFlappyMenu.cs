@@ -19,6 +19,11 @@ public class StopFlappyMenu : MonoBehaviour
     {
         SceneManager.LoadScene("FlappyHormigOXXO");
     }
+
+    public void Salir()
+    {
+        SceneManager.LoadScene("OxxoScene");
+    }
 }
 
 

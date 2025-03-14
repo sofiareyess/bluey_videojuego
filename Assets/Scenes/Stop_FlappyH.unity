@@ -390,7 +390,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2037439964}
-        m_TargetAssemblyTypeName: PauseMenuBlastoxxo, Assembly-CSharp
+        m_TargetAssemblyTypeName: StopFlappyMenu, Assembly-CSharp
         m_MethodName: ContinueGame
         m_Mode: 1
         m_Arguments:
@@ -604,7 +604,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2037439964}
-        m_TargetAssemblyTypeName: PauseMenuBlastoxxo, Assembly-CSharp
+        m_TargetAssemblyTypeName: StopFlappyMenu, Assembly-CSharp
         m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
@@ -908,8 +908,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2037439964}
-        m_TargetAssemblyTypeName: PauseMenuBlastoxxo, Assembly-CSharp
-        m_MethodName: ExitMinigame
+        m_TargetAssemblyTypeName: StopFlappyMenu, Assembly-CSharp
+        m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1409,7 +1409,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2037439961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7a26ddef0ca9424b9a40af354b14267, type: 3}
+  m_Script: {fileID: 11500000, guid: b0cf79616a1edc844b60ce5aa0f6d28c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2126036662
