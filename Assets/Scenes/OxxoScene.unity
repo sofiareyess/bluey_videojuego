@@ -2764,6 +2764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hormigoxxo
       objectReference: {fileID: 0}
+    - target: {fileID: 8658648501636110336, guid: b6c61eb1c685bb848a50f33118edb9ed, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f0ed9707a6212214ab115f24ccbf7d30, type: 2}
     - target: {fileID: 8669767394511536061, guid: b6c61eb1c685bb848a50f33118edb9ed, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
