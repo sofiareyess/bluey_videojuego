@@ -12,37 +12,37 @@ EditorBuildSettings:
     path: Assets/Scenes/LogoVD.unity
     guid: 5620f1a99ed5e5e468a4a25684c742b8
   - enabled: 1
-    path: Assets/Scenes/OxxoScene.unity
+    path: Assets/Scenes/TycoonScene/OxxoScene.unity
     guid: b7df8051328828b4a99a679e0c0d9756
   - enabled: 1
-    path: Assets/Scenes/ShooterEndScene.unity
+    path: Assets/Scenes/IceShooterScenes/ShooterEndScene.unity
     guid: 566676b0df3da3348b6f9fea5596b332
   - enabled: 1
-    path: Assets/Scenes/FlappyHormigOXXO.unity
+    path: Assets/Scenes/FlappyScene/FlappyHormigOXXO.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/EndGame_HormiOXXO.unity
+    path: Assets/Scenes/FlappyScene/EndGame_HormiOXXO.unity
     guid: 17a792d9f4b9c99488b10d84d9be3ac4
   - enabled: 1
-    path: Assets/Scenes/Stop_FlappyH.unity
+    path: Assets/Scenes/FlappyScene/Stop_FlappyH.unity
     guid: eb4d186935c16f24ea99d6398399e6cc
   - enabled: 1
-    path: Assets/Scenes/GameSceneBlastoxxo.unity
+    path: Assets/Scenes/BlockBlastScenes/GameSceneBlastoxxo.unity
     guid: 0aa62b9a700b65b4f895e8a72cfe256c
   - enabled: 1
-    path: Assets/Scenes/PauseSceneBlastoxxo.unity
+    path: Assets/Scenes/BlockBlastScenes/PauseSceneBlastoxxo.unity
     guid: 878fcf5c42d8efc498d82f8b9562532b
   - enabled: 1
-    path: Assets/Scenes/GameOverSceneBlastoxxo.unity
+    path: Assets/Scenes/BlockBlastScenes/GameOverSceneBlastoxxo.unity
     guid: 7d14f463b7750644f8ca154e31941e31
   - enabled: 1
-    path: Assets/Scenes/QuestionScene_FlappyH.unity
+    path: Assets/Scenes/FlappyScene/QuestionScene_FlappyH.unity
     guid: 49fea1ddbe0490c4a93c3fb0393138d1
   - enabled: 1
-    path: Assets/Scenes/IceShooterScene.unity
+    path: Assets/Scenes/IceShooterScenes/IceShooterScene.unity
     guid: 8810fb9094d9f5e488460c54b19a4d81
   - enabled: 1
-    path: Assets/Scenes/ShopScene.unity
+    path: Assets/Scenes/ShopScene/ShopScene.unity
     guid: 0d587f0eaa9f2f949b59b9a6da3166cc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
