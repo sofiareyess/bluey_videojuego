@@ -33,6 +33,14 @@ public class SceneRedirect : MonoBehaviour
         SceneManager.LoadScene("OxxoScene");
     }
 
+
+    //abre la scene con el logotipo
+     public void LoginButtonClick(){
+        SceneManager.LoadScene("LogoVD");
+    }
+
+
+
     //abre la tienda
     public void Store()
     {

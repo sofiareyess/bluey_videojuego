@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LogInScene.unity
     guid: 2c9efeefe6a668b4cac2583295b7399e
   - enabled: 1
+    path: Assets/Scenes/LogoVD.unity
+    guid: 5620f1a99ed5e5e468a4a25684c742b8
+  - enabled: 1
     path: Assets/Scenes/OxxoScene.unity
     guid: b7df8051328828b4a99a679e0c0d9756
   - enabled: 1

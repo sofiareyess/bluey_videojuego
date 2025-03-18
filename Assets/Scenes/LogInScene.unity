@@ -314,7 +314,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b5574a6b21b246a40834f064adef6a7b, type: 3}
+    m_Font: {fileID: 12800000, guid: 8806c769768570a478c3addfd37c8d2d, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -393,8 +393,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b5574a6b21b246a40834f064adef6a7b, type: 3}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: 8806c769768570a478c3addfd37c8d2d, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -808,7 +808,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 325103806}
         m_TargetAssemblyTypeName: SceneRedirect, Assembly-CSharp
-        m_MethodName: Menu
+        m_MethodName: LoginButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1069,7 +1069,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b5574a6b21b246a40834f064adef6a7b, type: 3}
+    m_Font: {fileID: 12800000, guid: 8806c769768570a478c3addfd37c8d2d, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
