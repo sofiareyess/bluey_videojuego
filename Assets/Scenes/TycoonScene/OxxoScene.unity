@@ -370,8 +370,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allShopItems:
-  - {fileID: 0}
-  placer: {fileID: 0}
+  - {fileID: 11400000, guid: e846fe5f995f14aec835ddedb7a5a4a8, type: 2}
+  placer: {fileID: 1350905248}
 --- !u!4 &184708055
 Transform:
   m_ObjectHideFlags: 0
@@ -2340,6 +2340,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1350905247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350905249}
+  - component: {fileID: 1350905248}
+  m_Layer: 0
+  m_Name: PlacementArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1350905248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350905247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7a101b27f1346eb9ff34a2e9b09cd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToPlace: {fileID: 0}
+--- !u!4 &1350905249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350905247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5833935, y: -2.3083909, z: -9.968562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1432282101
 GameObject:
   m_ObjectHideFlags: 0
@@ -3933,3 +3978,4 @@ SceneRoots:
   - {fileID: 1834440908}
   - {fileID: 365850380}
   - {fileID: 184708055}
+  - {fileID: 1350905249}
