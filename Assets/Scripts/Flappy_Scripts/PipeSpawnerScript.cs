@@ -10,7 +10,7 @@ public class PipeSpawnerScript : MonoBehaviour
     // temporizador para controlar el tiempo entre los spawns
     private float timer = 0;
     // heightOffset, es para la altura de los garrafones, se puede cambiar
-    private float heightOffset = 5;
+    public float heightOffset = 3;
 
     
     void Start()
