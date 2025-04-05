@@ -7,6 +7,7 @@ TagManager:
   - Logic
   - Pipe
   - Middle
+  - Placed
   layers:
   - Default
   - TransparentFX

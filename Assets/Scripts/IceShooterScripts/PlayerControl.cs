@@ -21,6 +21,10 @@ public class PlayerControl : MonoBehaviour
     {
         // Movimiento horizontal de Horigoxxo
         float xInput = Input.GetAxis("Horizontal");
-        rig.linearVelocity = new Vector2(xInput*moveSpeed, rig.linearVelocity.y);
+        float yInput = Input.GetAxis("Vertical");
+        rig.linearVelocity = new Vector2(xInput*moveSpeed, yInput * moveSpeed);
+        Debug.Log ("Input : " +xInput + "." + yInput);
+
     } 
+
 }
