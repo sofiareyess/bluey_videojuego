@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -7488648567767247769}
   - component: {fileID: -1915909327618330579}
   m_Layer: 0
-  m_Name: Panaderia
+  m_Name: Farmacia
   m_TagString: Placed
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 8855745477786955411}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6176, y: -2.2656, z: 0}
-  m_LocalScale: {x: 0.2885268, y: 0.3392697, z: 1}
+  m_LocalPosition: {x: -3.1565, y: -1.7077, z: 0}
+  m_LocalScale: {x: 0.30104083, y: 0.31531727, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -8970770882023194272, guid: 1439cb11722a44c49bf5fb4bc33d3467, type: 3}
+  m_Sprite: {fileID: 772100100784448682, guid: b53df4a5892694f16898c1cea763b91c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -139,7 +139,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.99, y: 8.92}
+    oldSize: {x: 8.51, y: 8.54}
     newSize: {x: 7.78, y: 3.39}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

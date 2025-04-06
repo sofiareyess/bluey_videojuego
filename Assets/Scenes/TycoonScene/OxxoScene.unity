@@ -809,6 +809,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fa3027310d48c4bfe9f648490e5dc412, type: 2}
   - {fileID: 11400000, guid: 978289f24f3424a3696b7e4a6a6b6659, type: 2}
   - {fileID: 11400000, guid: 543ce82b6f6924c89b99c86210a9cc83, type: 2}
+  - {fileID: 11400000, guid: 443a2d5ef62774b99985ed09925a4fe6, type: 2}
   placer: {fileID: 1350905248}
 --- !u!4 &184708055
 Transform:

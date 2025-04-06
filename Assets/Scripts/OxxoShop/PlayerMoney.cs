@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMoney : MonoBehaviour
 {
-    public int money = 1000;
+    public int money = 3000;
 
     public bool CanAfford(int cost)
     {
