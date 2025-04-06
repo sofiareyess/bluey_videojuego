@@ -2,42 +2,47 @@ using UnityEngine;
 
 public class PlacedObjectController : MonoBehaviour
 {
-    private bool isBeingMoved = false;
-
-    void Update()
-    {
-        if (isBeingMoved)
-        {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePos.z = 0f;
-            transform.position = mousePos;
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                isBeingMoved = false;
-                PlacedObjectManager.GuardarTodo();
-            }
-        }
-    }
+    private bool isBeingDragged = false;
+    private Vector3 offset;
 
     void OnMouseDown()
     {
+        // ✅ Si presiona Delete o Backspace → destruir
         if (Input.GetKey(KeyCode.Delete) || Input.GetKey(KeyCode.Backspace))
         {
-            StartCoroutine(GuardarDespuesDeDestruir());
             Destroy(gameObject);
+            Invoke("GuardarDespuesDeDestruir", 0.1f);
         }
-        else if (Input.GetKey(KeyCode.M))
+        else
         {
-            isBeingMoved = true;
+            // ✅ Si no, empieza a arrastrar
+            isBeingDragged = true;
+            Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            offset = transform.position - new Vector3(mouseWorld.x, mouseWorld.y, 0);
         }
     }
 
-    System.Collections.IEnumerator GuardarDespuesDeDestruir()
+    void OnMouseDrag()
     {
-    yield return new WaitForEndOfFrame(); // esperamos un frame completo
-    PlacedObjectManager.GuardarTodo();
+        if (isBeingDragged)
+        {
+            Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mouseWorld.z = 0f;
+            transform.position = mouseWorld + offset;
+        }
+    }
+
+    void OnMouseUp()
+    {
+        if (isBeingDragged)
+        {
+            isBeingDragged = false;
+            PlacedObjectManager.GuardarTodo();
+        }
+    }
+
+    private void GuardarDespuesDeDestruir()
+    {
+        PlacedObjectManager.GuardarTodo();
     }
 }
-
-

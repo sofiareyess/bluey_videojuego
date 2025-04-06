@@ -8,6 +8,8 @@ TagManager:
   - Pipe
   - Middle
   - Placed
+  - Cliente
+  - Spawner
   layers:
   - Default
   - TransparentFX

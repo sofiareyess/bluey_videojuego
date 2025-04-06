@@ -1,16 +1,25 @@
 using UnityEngine;
-using UnityEngine.UI;
+using System.Collections;
 
 public class AutoSaved : MonoBehaviour
 {
-    public Button botonGuardar;
+    public float tiempoEntreGuardados = 5f; // cada cuántos segundos guardar
 
     void Start()
     {
-        botonGuardar.onClick.AddListener(() => {
+        StartCoroutine(GuardarPeriodicamente());
+    }
+
+    IEnumerator GuardarPeriodicamente()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(tiempoEntreGuardados);
             PlacedObjectManager.GuardarTodo();
-        });
+            Debug.Log("💾 Guardado automático cada " + tiempoEntreGuardados + " segundos");
+        }
     }
 }
+
 
 

@@ -23,7 +23,6 @@ public class PlayerControl : MonoBehaviour
         float xInput = Input.GetAxis("Horizontal");
         float yInput = Input.GetAxis("Vertical");
         rig.linearVelocity = new Vector2(xInput*moveSpeed, yInput * moveSpeed);
-        Debug.Log ("Input : " +xInput + "." + yInput);
 
     } 
 

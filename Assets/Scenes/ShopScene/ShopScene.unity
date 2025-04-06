@@ -277,8 +277,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -135}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -9.3152, y: -139}
+  m_SizeDelta: {x: 18.6303, y: -1.4331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &110103308
 MonoBehaviour:
@@ -301,7 +301,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8806c769768570a478c3addfd37c8d2d, type: 3}
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
     m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
@@ -313,7 +313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: $200
+  m_Text: $1500
 --- !u!222 &110103309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -587,7 +587,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269560735}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -597,7 +597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -419, y: -276.52}
+  m_AnchoredPosition: {x: -419, y: -276.51996}
   m_SizeDelta: {x: 259.9055, y: 176.8365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269560737
@@ -1345,6 +1345,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e846fe5f995f14aec835ddedb7a5a4a8, type: 2}
   - {fileID: 11400000, guid: dda1e83c0acd84ae6b45be13c3dce712, type: 2}
   - {fileID: 11400000, guid: 86f7669b5ebea46a7afca3836be5b505, type: 2}
+  - {fileID: 11400000, guid: 2a101cde3869a4d328e4e07a336435a2, type: 2}
+  - {fileID: 11400000, guid: c67d35859738d4c55a985bb7373bfce5, type: 2}
   placementArea: {fileID: 0}
   playerMoney: {fileID: 52562444}
   objectPlacer: {fileID: 1020281456}
@@ -1903,8 +1905,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8806c769768570a478c3addfd37c8d2d, type: 3}
-    m_FontSize: 35
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3022,7 +3024,7 @@ GameObject:
   - component: {fileID: 1110107676}
   - component: {fileID: 1110107675}
   m_Layer: 5
-  m_Name: refrescoVerde_botton
+  m_Name: Segunda Caja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3889,17 +3891,17 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 269560736}
   - {fileID: 275597503}
   - {fileID: 1700971717}
+  - {fileID: 2089713380}
   - {fileID: 386247287}
   - {fileID: 2034740122}
   - {fileID: 1051417898}
   - {fileID: 193238521}
   - {fileID: 915999368}
   - {fileID: 529863186}
-  - {fileID: 2089713380}
   - {fileID: 1372429877}
-  - {fileID: 269560736}
   - {fileID: 2086853121}
   - {fileID: 612197441}
   - {fileID: 926733296}
@@ -4365,8 +4367,9 @@ GameObject:
   - component: {fileID: 2086853124}
   - component: {fileID: 2086853123}
   - component: {fileID: 2086853122}
+  - component: {fileID: 2086853125}
   m_Layer: 5
-  m_Name: papasAmarillas_botton
+  m_Name: SegundaCaja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4389,8 +4392,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 628, y: -281.52}
-  m_SizeDelta: {x: 142.732, y: 167.71}
+  m_AnchoredPosition: {x: 653.73987, y: -275.26}
+  m_SizeDelta: {x: 194.2197, y: 177.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2086853122
 MonoBehaviour:
@@ -4435,7 +4438,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2086853123}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 560532363}
+        m_TargetAssemblyTypeName: ShopManager, Assembly-CSharp
+        m_MethodName: BuyItem
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2086853123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4456,7 +4471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5285745804921287842, guid: ea5f127bafe6d8b4fa4e0b65828754d6, type: 3}
+  m_Sprite: {fileID: 6421526381440538288, guid: 8a7b6c329f43d4d80aeb51517bf885ce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4474,6 +4489,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086853120}
   m_CullTransparentMesh: 1
+--- !u!95 &2086853125
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086853120}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 51de26066964f448084f1d093dbcb1c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2089713379
 GameObject:
   m_ObjectHideFlags: 0
@@ -4487,7 +4524,7 @@ GameObject:
   - component: {fileID: 2089713382}
   - component: {fileID: 2089713381}
   m_Layer: 5
-  m_Name: chip_botton
+  m_Name: Mesa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4510,9 +4547,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 228, y: 260}
-  m_SizeDelta: {x: 137.1679, y: 116.7329}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 159, y: 207}
+  m_SizeDelta: {x: 200.0936, y: 154.4884}
+  m_Pivot: {x: 0.33360213, y: 0.1674516}
 --- !u!114 &2089713381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4556,7 +4593,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2089713382}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 560532363}
+        m_TargetAssemblyTypeName: ShopManager, Assembly-CSharp
+        m_MethodName: BuyItem
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2089713382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4577,7 +4626,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -285346849858095890, guid: 56248ed4cf7b6e248a9c397519ee100e, type: 3}
+  m_Sprite: {fileID: 234791285009854161, guid: a57013ed8bcd84e72bd700a1a2d95e69, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
