@@ -810,6 +810,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 978289f24f3424a3696b7e4a6a6b6659, type: 2}
   - {fileID: 11400000, guid: 543ce82b6f6924c89b99c86210a9cc83, type: 2}
   - {fileID: 11400000, guid: 443a2d5ef62774b99985ed09925a4fe6, type: 2}
+  - {fileID: 11400000, guid: 1e2de28feba144e40804f5522fd29327, type: 2}
+  - {fileID: 11400000, guid: 0051dafde83f744eeb2db07ae2469117, type: 2}
+  - {fileID: 11400000, guid: 06fa7c0ac915649d9a1c6907d1267ad0, type: 2}
+  - {fileID: 11400000, guid: 03beb55fe201547ab9d756a7a74c298a, type: 2}
+  - {fileID: 11400000, guid: 8098bec9691a14d7ebcb4a2c56db966c, type: 2}
+  - {fileID: 11400000, guid: c2d6fbf860007442cb8f1adb7dd12489, type: 2}
   placer: {fileID: 1350905248}
 --- !u!4 &184708055
 Transform:
