@@ -816,6 +816,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 03beb55fe201547ab9d756a7a74c298a, type: 2}
   - {fileID: 11400000, guid: 8098bec9691a14d7ebcb4a2c56db966c, type: 2}
   - {fileID: 11400000, guid: c2d6fbf860007442cb8f1adb7dd12489, type: 2}
+  - {fileID: 11400000, guid: 990099fb5d01a4526a27561cd716f476, type: 2}
+  - {fileID: 11400000, guid: 7bef9a56ff14a40028cb3a3d18cfdc01, type: 2}
+  - {fileID: 11400000, guid: 82a12ee6381f649028895f9ed10da26d, type: 2}
   placer: {fileID: 1350905248}
 --- !u!4 &184708055
 Transform:

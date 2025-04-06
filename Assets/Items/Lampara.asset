@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Lampara
   m_EditorClassIdentifier: 
   itemName: Lampara
-  price: 100
+  price: 200
   prefab: {fileID: 8855745477786955411, guid: 2280c659ddca348369f2676ce0883c78, type: 3}

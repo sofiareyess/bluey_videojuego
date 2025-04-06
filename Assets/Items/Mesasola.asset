@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Mesasola
   m_EditorClassIdentifier: 
   itemName: Mesasola
-  price: 70
+  price: 35
   prefab: {fileID: 8855745477786955411, guid: a8615e84a294d4e38bfd7c72dd5fdf42, type: 3}

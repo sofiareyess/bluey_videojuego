@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -7488648567767247769}
   - component: {fileID: -1915909327618330579}
   m_Layer: 0
-  m_Name: Chicles
+  m_Name: Tapete
   m_TagString: Placed
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 8855745477786955411}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.7851, y: -2.6603, z: 0}
-  m_LocalScale: {x: 0.2594969, y: 0.2553609, z: 1}
+  m_LocalPosition: {x: -3.6254, y: -3.0121, z: 0}
+  m_LocalScale: {x: 0.23202, y: 0.23862001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,12 +78,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -2035376695001638825, guid: 8d19bd8d3bcf74b09a3c1e88f548e28a, type: 3}
+  m_Sprite: {fileID: 9005876994102210168, guid: 6967f8e76f28647598346ab505655484, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.9, y: 7.35}
+  m_Size: {x: 7.78, y: 3.39}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -139,8 +139,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.9, y: 7.35}
-    newSize: {x: 5.9, y: 7.35}
+    oldSize: {x: 9.14, y: 3.81}
+    newSize: {x: 7.78, y: 3.39}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

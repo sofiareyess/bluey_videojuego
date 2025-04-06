@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3079fe9604104cd984980ade853e32f, type: 3}
-  m_Name: SegundaCaja
+  m_Name: Descuento
   m_EditorClassIdentifier: 
-  itemName: SegundaCaja
-  price: 1500
-  prefab: {fileID: 3034936671006423723, guid: 067d3e8eb127a4020abbf313567e9d59, type: 3}
+  itemName: Descuento
+  price: 80
+  prefab: {fileID: 8855745477786955411, guid: 5c7979f1d00f84bffbc593cd88685a75, type: 3}
