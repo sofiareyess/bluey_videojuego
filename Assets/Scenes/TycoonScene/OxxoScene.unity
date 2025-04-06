@@ -800,6 +800,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 86f7669b5ebea46a7afca3836be5b505, type: 2}
   - {fileID: 11400000, guid: 2a101cde3869a4d328e4e07a336435a2, type: 2}
   - {fileID: 11400000, guid: c67d35859738d4c55a985bb7373bfce5, type: 2}
+  - {fileID: 11400000, guid: 50aff6841de484b0e887de14d6ac2250, type: 2}
+  - {fileID: 11400000, guid: 2a3ce4287ef9545d695e59c18d07264a, type: 2}
+  - {fileID: 11400000, guid: 5268f61981f2c452ea487338ee817045, type: 2}
+  - {fileID: 11400000, guid: 39c27371412e84bec9315103e0c9f84a, type: 2}
+  - {fileID: 11400000, guid: c8d2e9e0f152d431697b0080cb6736b7, type: 2}
+  - {fileID: 11400000, guid: c945aef6917c8417dabd22d418e17a85, type: 2}
+  - {fileID: 11400000, guid: fa3027310d48c4bfe9f648490e5dc412, type: 2}
+  - {fileID: 11400000, guid: 978289f24f3424a3696b7e4a6a6b6659, type: 2}
+  - {fileID: 11400000, guid: 543ce82b6f6924c89b99c86210a9cc83, type: 2}
   placer: {fileID: 1350905248}
 --- !u!4 &184708055
 Transform:
@@ -6641,9 +6650,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26068240d2c924cd3880d6d6d757692d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyGameObject: {fileID: 2490219338643489680, guid: cb6d58746f043480aad88a74909bd2fb, type: 3}
+  enemyGameObject: {fileID: 4537645082615758894, guid: f8fe7d95881434c138376aae9eda26f3, type: 3}
   tiendaObjetivo: {fileID: 90752789}
-  tiempoMin: 20
+  tiempoMin: 25
   tiempoMax: 30
 --- !u!212 &1481158279
 SpriteRenderer:
