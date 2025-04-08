@@ -2,31 +2,46 @@ using UnityEngine;
 
 public class TycoonLoader : MonoBehaviour
 {
-    public ShopItem[] allShopItems; // Asignas los mismos que en la tienda
-    public ObjectPlacer placer; // Referencia al ObjectPlacer
+    public ShopItem[] allShopItems;
+    public ObjectPlacer placer; // ¡Asegúrate de asignarlo desde el Inspector!
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        foreach (ShopItem item in allShopItems)
+        // Primero cargamos todos los objetos ya colocados guardados en JSON
+        string json = PlayerPrefs.GetString("PlacedObjects", "");
+        
+        if (!string.IsNullOrEmpty(json))
         {
-            if (PlayerPrefs.GetInt("Comprando_"+ item.itemName, 0) == 1)
+            SaveWrapper data = JsonUtility.FromJson<SaveWrapper>(json);
+
+            foreach (SavedObjectData item in data.objects)
             {
-                Debug.Log ("Cargando item comprado: " + item.itemName);
-
-                //Preparamos el objeto para colocar
-                placer.SetObjectToPlace(item.prefab);
-
-                //Limpiamos el flag (opcional si solo se puede colocar una vez)
-                PlayerPrefs.SetInt("Comprado_" + item.itemName, 0);
+                foreach (ShopItem shopItem in allShopItems)
+                {
+                    if (shopItem.itemName.Trim().ToLower() == item.objectName.Trim().ToLower())
+                    {
+                        GameObject obj = Instantiate(shopItem.prefab);
+                        obj.transform.position = new Vector3(item.posX, item.posY, item.posZ);
+                        obj.transform.rotation = Quaternion.Euler(0, 0, item.rotZ);
+                        obj.tag = "Placed"; // Asegura que tenga el tag para mover/borrar
+                        obj.AddComponent<PlacedObjectController>(); // Le damos control
+                        break;
+                    }
+                }
             }
         }
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Luego revisamos si hay un objeto recién comprado (y aún no colocado)
+        foreach (ShopItem shopItem in allShopItems)
+        {
+            if (PlayerPrefs.GetInt("Comprando_" + shopItem.itemName, 0) == 1)
+            {
+                Debug.Log("Cargando item comprado: " + shopItem.itemName);
+                placer.SetObjectToPlace(shopItem.prefab);
+                PlayerPrefs.SetInt("Comprando_" + shopItem.itemName, 0);
+                break;
+            }
+        }
     }
 }
+

@@ -26,12 +26,12 @@ public void BuyItem(int index)
 
         //Guardamos que este ibjeto fue comprado (1 = comprado)
         PlayerPrefs.SetInt("Comprando_" + item.itemName, 1);
+        Debug.Log("Cargando item comprado: " + item.itemName);
         PlayerPrefs.Save();
 
         //Cambiamos de escena al tycoon
         SceneManager.LoadScene("OxxoScene");
         // En vez de colocarlo automáticamente, lo pasa al ObjectPlacer
-        objectPlacer.SetObjectToPlace(item.prefab);
     }
     else
     {

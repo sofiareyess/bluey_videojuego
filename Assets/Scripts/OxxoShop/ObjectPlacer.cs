@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ObjectPlacer : MonoBehaviour
 {
-    public GameObject objectToPlace;
+    private GameObject objectToPlace;
 
     public void SetObjectToPlace(GameObject prefab)
     {
@@ -11,17 +11,28 @@ public class ObjectPlacer : MonoBehaviour
 
     void Update()
     {
-        if (objectToPlace != null)
+        if (objectToPlace != null && Input.GetMouseButtonDown(0))
         {
-            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            pos.z = 0;
-            objectToPlace.transform.position = pos;
+            Vector3 placementPos = GetMouseWorldPosition();
+            objectToPlace.transform.position = placementPos;
 
-            if (Input.GetMouseButtonDown(0))
-            {
-                objectToPlace = null;
-            }
+            // IMPORTANTE: Darle el tag y el script
+            objectToPlace.tag = "Placed";
+            objectToPlace.AddComponent<PlacedObjectController>();
+
+            objectToPlace = null; // Ya lo colocamos
+
+            // ✅ Guardamos todo en JSON con el sistema global
+            PlacedObjectManager.GuardarTodo();
         }
     }
+
+    private Vector3 GetMouseWorldPosition()
+    {
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = 0f;
+        return mousePos;
+    }
 }
+
 
