@@ -1,46 +1,44 @@
 using UnityEngine;
 
-//este script es para el movimiento de los garrafones
 public class PipeSpawnerScript : MonoBehaviour
 {
-    //prefab del garrafon 
-    public GameObject pipe;
-    //tiempo en lo que aparece cada garrafon
-    public float spawnRate = 2;
-    // temporizador para controlar el tiempo entre los spawns
-    private float timer = 0;
-    // heightOffset, es para la altura de los garrafones, se puede cambiar
-    public float heightOffset = 3;
+    public GameObject pipePrefab;     // Prefab del garrafón normal
+    public GameObject pipeStarPrefab; // Prefab del garrafón con estrella
+    public float spawnRate = 2f;      // Tiempo entre spawn
+    private float timer = 0f;         // Temporizador
+    public float heightOffset = 3f;   // Rango de altura
 
-    
-    void Start()
-    {
-        //genera un garrafon al iniciar el juego
-        spawnPipe();
-    }
+    private int pipeCount = 0; // Contador de garrafones
 
-    // Update is called once per frame
     void Update()
     {
-        //funcion para checar el tiempo para generar garrafones
-        if (timer < spawnRate){
-            // aumenta el temporizador con el tiempo transcurrido en cada frame
+        if (timer < spawnRate)
+        {
             timer += Time.deltaTime;
         }
-        else {
-            //genera unnuevo garrafon y reinicia el timer
-            spawnPipe();
-            timer = 0;
+        else
+        {
+            SpawnPipe();
+            timer = 0f; // Reinicia el temporizador
         }
     }
 
-    //es para que los garrafones salgan a diferentes posiciones
-    void spawnPipe(){
-        //calcula los limites inferior y superior de la altura de los garrafones
+    void SpawnPipe()
+    {
         float lowestPoint = transform.position.y - heightOffset;
-        float heighestPoint = transform.position.y + heightOffset;
+        float highestPoint = transform.position.y + heightOffset;
 
-        // produce un nuevo garrafon en una posición aleatoria 
-        Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestPoint, heighestPoint),0), transform.rotation);
+        Vector3 spawnPosition = new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0);
+        // Alternar entre garrafón normal y garrafón con estrella
+        if (pipeCount < 2)
+        {
+           Instantiate(pipePrefab, spawnPosition, Quaternion.identity);
+            pipeCount++;
+        }
+        else
+        {
+             Instantiate(pipeStarPrefab, spawnPosition, Quaternion.identity);
+            pipeCount = 0; // Reinicia el contador después del garrafón con estrella
+        }
     }
 }
