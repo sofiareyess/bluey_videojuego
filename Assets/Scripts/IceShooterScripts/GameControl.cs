@@ -7,7 +7,6 @@ public class GameControl : MonoBehaviour
     static public GameControl Instance;
     public UIController UIController;
 
-
     // Se crea una instancia para la partida actual
     public void Awake()
     {
@@ -50,9 +49,6 @@ public class GameControl : MonoBehaviour
         PlayerPrefs.GetInt("lives", 5);
         if (PlayerPrefs.GetInt("lives", 5) == 0)
         {
-            PlayerPrefs.SetInt("ImpactosRecibidosEspecial", 0);
-            PlayerPrefs.SetInt("ImpactosRecibidos", 0); // Reseteamos
-            PlayerPrefs.Save();
             ActivateEndScene();
         }
     }
@@ -60,14 +56,7 @@ public class GameControl : MonoBehaviour
     // Cambia a la escena final
     public void ActivateEndScene() 
     {
-            if (UIController != null)
-    {
-        int puntosFinales = UIController.GetCurrentScore();
-        PlayerPrefs.SetInt("Puntos", puntosFinales); // Guardamos con la misma clave que PuntosController
-        PlayerPrefs.Save();
-    }
-
-    SceneManager.LoadScene("ShooterEndScene");
+        SceneManager.LoadScene("ShooterEndScene");
     }
 
     void Start()

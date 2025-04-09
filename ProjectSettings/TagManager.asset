@@ -7,11 +7,9 @@ TagManager:
   - Logic
   - Pipe
   - Middle
-  - star
-  - pipestar
-  - Projectile
-  - Ice
-  - PanelPreguntas
+  - Placed
+  - Cliente
+  - Spawner
   layers:
   - Default
   - TransparentFX

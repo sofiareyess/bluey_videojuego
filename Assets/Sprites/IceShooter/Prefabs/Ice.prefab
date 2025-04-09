@@ -167,6 +167,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 3
-  puntosFinales: 20
-  crashSound: {fileID: 8300000, guid: 75e3d80959e28d9448bb5e1f9fc08944, type: 3}
-  playerSound: {fileID: 8300000, guid: f7428b95c3419d947931cd1d205c7495, type: 3}
+  points: 100

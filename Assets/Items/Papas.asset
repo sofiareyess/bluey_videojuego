@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3079fe9604104cd984980ade853e32f, type: 3}
+  m_Name: Papas
+  m_EditorClassIdentifier: 
+  itemName: Papas
+  price: 400
+  prefab: {fileID: 1523130610376465889, guid: 73de8b5f99a334e47af299723e1ee6b2, type: 3}
