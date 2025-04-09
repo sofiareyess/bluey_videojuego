@@ -29,14 +29,23 @@ public class GridSquare : MonoBehaviour
         ActivateSquare();
     }
 
-
-
     public void ActivateSquare()
     {
         hoverImage.gameObject.SetActive(false);
         ActiveImage.gameObject.SetActive(true);
         Selected = true;
         SquareOccupied = true;
+    }
+
+    public void Deactivate()
+    {
+        ActiveImage.gameObject.SetActive(false);
+    }
+
+    public void ClearOccupied()
+    {
+        Selected = false;
+        SquareOccupied = false;
     }
 
     public void SetImage(bool setFirstImage)
