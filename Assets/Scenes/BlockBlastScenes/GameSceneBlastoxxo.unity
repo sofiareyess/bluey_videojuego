@@ -150,6 +150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 167174170}
   - component: {fileID: 167174171}
+  - component: {fileID: 167174172}
   m_Layer: 5
   m_Name: Grid
   m_TagString: Untagged
@@ -196,6 +197,19 @@ MonoBehaviour:
   startposition: {x: -755, y: 380}
   squarescale: 0.7
   everysquareOffset: 0
+--- !u!114 &167174172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167174169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f980fa551ad7143498fd5cc6aeabe18c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columnIndexes: 000000000100000002000000030000000400000005000000060000000700000008000000
 --- !u!1 &280394501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2351,6 +2365,7 @@ GameObject:
   - component: {fileID: 1957516640}
   - component: {fileID: 1957516642}
   - component: {fileID: 1957516641}
+  - component: {fileID: 1957516643}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -2416,6 +2431,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957516639}
   m_CullTransparentMesh: 1
+--- !u!114 &1957516643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957516639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b8cad782bc14c06b225bd330c6f8fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PuntoOxxos: {fileID: 694262215}
 --- !u!1 &2135137686
 GameObject:
   m_ObjectHideFlags: 0
