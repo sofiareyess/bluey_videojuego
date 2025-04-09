@@ -10,6 +10,9 @@ public class Identifylogin : MonoBehaviour
     public InputField nameInputField;
     public InputField passwordInputField;
     public Text errorMessageText;
+    
+    // Variable global para guardar el id_puntos
+    private int id_puntos;
 
     private string playerName;
     private string password;
@@ -30,34 +33,42 @@ public class Identifylogin : MonoBehaviour
         }
     }
 
-   IEnumerator GetData()
-{
-    string JSONurl = "https://10.22.156.118:7264/PuntosOxxo/" + UnityWebRequest.EscapeURL(playerName) + "/" + UnityWebRequest.EscapeURL(password);
-    UnityWebRequest web = UnityWebRequest.Get(JSONurl);
-    web.certificateHandler = new ForceAcceptAll();
-    yield return web.SendWebRequest();
+    IEnumerator GetData()
+    {
+        string JSONurl = "https://192.168.100.7:7264/PuntosOxxo/" + UnityWebRequest.EscapeURL(playerName) + "/" + UnityWebRequest.EscapeURL(password);
+        UnityWebRequest web = UnityWebRequest.Get(JSONurl);
+        web.certificateHandler = new ForceAcceptAll();
+        yield return web.SendWebRequest();
 
-    if (web.result != UnityWebRequest.Result.Success)
-    {
-        Debug.Log("Error API: " + web.error);
+        if (web.result != UnityWebRequest.Result.Success)
+        {
+            Debug.Log("Error API: " + web.error);
+        }
+        else
+        {
+            // Deserializa a LoginResponse en lugar de int
+            LoginResponse response = JsonConvert.DeserializeObject<LoginResponse>(web.downloadHandler.text);
+
+            // Guarda el puntos_id en PlayerPrefs
+            id_puntos = response.puntos_id;
+            PlayerPrefs.SetInt("IdPuntos", id_puntos);  // Guardar el id_puntos
+            PlayerPrefs.Save();  // Asegúrate de guardar los cambios
+
+            // Sigue con la validación usando confirmnumber
+            CheckInfo(response.confirmnumber);
+        }
     }
-    else
+
+    public void CheckInfo(int confirmnumber)
     {
-        int exists = JsonConvert.DeserializeObject<int>(web.downloadHandler.text); 
-        CheckInfo(exists);
+        if (confirmnumber == 1)
+        {
+            SceneManager.LoadScene("OxxoScene");
+        }
+        else
+        {
+            errorMessageText.text = "Usuario o contraseña incorrectos."; 
+        }
     }
 }
 
-public void CheckInfo(int exists)
-{
-    if (exists == 1)
-    {
-        SceneManager.LoadScene("OxxoScene");
-    }
-    else
-    {
-        errorMessageText.text = "Usuario o contraseña incorrectos."; 
-    }
-}
-
-}

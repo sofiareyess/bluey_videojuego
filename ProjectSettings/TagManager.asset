@@ -7,6 +7,11 @@ TagManager:
   - Logic
   - Pipe
   - Middle
+  - star
+  - pipestar
+  - Projectile
+  - Ice
+  - PanelPreguntas
   layers:
   - Default
   - TransparentFX

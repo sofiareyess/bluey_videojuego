@@ -46,7 +46,6 @@ public class IceeSpecialBehaviour : MonoBehaviour
 
                 // Destruimos el objeto Ice Especial
                 Destroy(gameObject);
-
                 // Reseteamos el contador de impactos en PlayerPrefs
                 PlayerPrefs.SetInt("ImpactosRecibidosEspecial", 0);
                 PlayerPrefs.Save();

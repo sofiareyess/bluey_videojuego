@@ -27,10 +27,12 @@ public class IceeSpecialSpawner : MonoBehaviour
         StartCoroutine(MoveIcee(iceeSpecial));
     }
 
-    // Corutina para mover el Icee Especial de un lado a otro
-    IEnumerator MoveIcee(GameObject iceeSpecial)
+
+   IEnumerator MoveIcee(GameObject iceeSpecial)
+{
+    while (true)
     {
-        while (true)
+        if (iceeSpecial != null) // Verificar si el objeto sigue existiendo
         {
             if (movingRight)
             {
@@ -46,8 +48,15 @@ public class IceeSpecialSpawner : MonoBehaviour
                     movingRight = true;
                 }
             }
-
-            yield return null;
         }
+        else
+        {
+            Debug.LogWarning("El objeto iceeSpecial ha sido destruido.");
+            yield break;  // Salir de la coroutine si el objeto ha sido destruido
+        }
+
+        yield return null;
     }
+}
+
 }

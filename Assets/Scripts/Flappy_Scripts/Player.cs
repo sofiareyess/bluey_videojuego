@@ -3,50 +3,78 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    
     public Rigidbody2D myRigidbody;
     public float flapStrength;
+    private PreguntasController preguntacontroller;
+    private PausaBehaviour pauseBehaviour; // Referencia a PauseBehaviour
 
     // Fuerza del salto
     public float jumpForce = 5f; 
     private Rigidbody2D rb;
 
-    void Start()
+    public AudioSource jumpSound; // Variable para el sonido cada vez que salta
+    public AudioClip crashSound;  // Variable para el sonido cuando choca
+
+    public void getCrash() // Cuando golpea algún objeto, suena un sonido
     {
-        // obtiene el Rigidbody2D de player
-        rb = GetComponent<Rigidbody2D>();   
+        if (crashSound != null)
+        {
+            AudioSource.PlayClipAtPoint(crashSound, Camera.main.transform.position, 0.5f);
+        }
     }
 
-    //se llama autocaticamente every single frame this script is running
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();   
+        jumpSound = GetComponent<AudioSource>();
+
+        preguntacontroller = FindFirstObjectByType<PreguntasController>();
+        pauseBehaviour = FindFirstObjectByType<PausaBehaviour>(); // Obtiene el script de pausa
+        if (pauseBehaviour == null){
+    }
+
+    }
+
     [System.Obsolete]
     private void Update()
     {
-        //si se preciona la space bar o el mouse el hormigOxxo se mueve
-        if(Input.GetKeyDown(KeyCode.Space)||Input.GetMouseButtonDown(0)){
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        {
             myRigidbody.velocity = Vector2.up * flapStrength;
+            if (jumpSound != null) jumpSound.Play();
         }
 
-        //Salta al presionar espacio
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
-            // Resetea la velocidad antes de aplicar fuerza
             rb.velocity = Vector2.zero; 
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            if (jumpSound != null) jumpSound.Play();
         }
-
     }
+private void OnCollisionEnter2D(Collision2D collision)
+{
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    if (collision.gameObject.CompareTag("Pipe")) 
     {
-        // Muestra en consola que se toco
-        //es para probar que si sirve la collision 
-        //Debug.Log("Colision con: " + collision.gameObject.name); 
 
-        if (collision.gameObject.CompareTag("Pipe")) 
-        {
-            // Cambia a la pantalla de endGame
-            SceneManager.LoadScene("EndGame_HormiOXXO"); 
-        }
+
+        getCrash();
+        Invoke("LoadEndGameScene", 0.25f);
     }
+    else if (collision.gameObject.CompareTag("star")) {
+
+         Destroy(collision.gameObject);
+
+        pauseBehaviour.PauseGame(); // Pausa el juego al chocar con la estrella
+}
+
+}
+
+void LoadEndGameScene()
+{
+    // Despausa el juego antes de cargar la escena de Game Over
+    Time.timeScale = 1; 
+    SceneManager.LoadScene("EndGame_HormiOXXO"); 
+}
 
 }

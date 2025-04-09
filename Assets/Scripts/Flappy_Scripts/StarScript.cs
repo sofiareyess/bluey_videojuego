@@ -1,17 +1,16 @@
 using UnityEngine;
-
-//este codigo es para el movimiento de los garrafones
-public class PipeMoveScript : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class StarScript : MonoBehaviour
 {
-    // vel a la que se mueve el garrafon a la izquierda
+        // vel a la que se mueve el garrafon a la izquierda
     public float moveSpeed = 5;
     // posicion X donde el garrafon se destruye
     public float deadZone = -45;
     
-  void Start()
-{
-
-}
+    void Start()
+    {
+        
+    }
 
     
     void Update()
@@ -24,5 +23,4 @@ public class PipeMoveScript : MonoBehaviour
         }
         
     }
-
 }
