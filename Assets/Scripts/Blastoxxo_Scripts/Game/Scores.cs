@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class Scores : MonoBehaviour
 {
     public Text PuntoOxxos;
+    public Text PuntoOxxos2;
     private int currentScores_;
 
     public void Start()
@@ -25,11 +26,13 @@ public class Scores : MonoBehaviour
     private void AddScores(int scores)
     {
         currentScores_ += scores;
+        PlayerPrefs.SetInt("Score", currentScores_);
         UpdateScoreText();
     }
 
     private void UpdateScoreText()
     {
         PuntoOxxos.text = "PuntOxxos: "+currentScores_.ToString();
+        PuntoOxxos2.text = "PuntOxxos: "+currentScores_.ToString();
     }
 }
