@@ -8,10 +8,10 @@ public class PipeMoveScript : MonoBehaviour
     // posicion X donde el garrafon se destruye
     public float deadZone = -45;
     
-    void Start()
-    {
-        
-    }
+  void Start()
+{
+
+}
 
     
     void Update()
@@ -24,4 +24,5 @@ public class PipeMoveScript : MonoBehaviour
         }
         
     }
+
 }
