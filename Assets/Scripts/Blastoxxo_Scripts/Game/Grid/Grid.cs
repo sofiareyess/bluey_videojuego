@@ -14,10 +14,12 @@ public class Grid : MonoBehaviour
     public Vector2 startposition = new Vector2(0.0f, 0.0f);
     public float squarescale = 0.5f;
     public float everysquareOffset = 0.0f;
+    public PreguntasController preguntasControllerBlastOxxo;
 
     private Vector2 _offset = new Vector2(0.0f, 0.0f);
     private List<GameObject> _gridSquares = new List<GameObject>();
     private LineIndicator _lindeIndicator;
+    private int rounds = 0;
 
       public void OnEnable()
     {
@@ -33,6 +35,7 @@ public class Grid : MonoBehaviour
     {
         _lindeIndicator = GetComponent<LineIndicator>();
         CreateGrid();
+        preguntasControllerBlastOxxo = FindFirstObjectByType<PreguntasController>();
     }
 
      private void CreateGrid()
@@ -144,8 +147,19 @@ public class Grid : MonoBehaviour
                 }
             }
 
-            if (shapeLeft ==0)
+            if (shapeLeft == 0)
             {
+                rounds++;
+                if (rounds == 3)
+                {
+                    GameEvents.ShowPanel();
+                    preguntasControllerBlastOxxo.GetPreguntaActual();
+                    preguntasControllerBlastOxxo.MostrarPregunta();
+                    var index = PlayerPrefs.GetInt("IndexPreguntas");
+                    index++;
+                    PlayerPrefs.SetInt("IndexPreguntas",index);
+                    rounds = 0;
+                }
                 GameEvents.RequestNewShapes();
             }
             else

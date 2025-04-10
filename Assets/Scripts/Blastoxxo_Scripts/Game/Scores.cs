@@ -16,17 +16,19 @@ public class Scores : MonoBehaviour
     private void OnEnable()
     {
         GameEvents.AddScores += AddScores;
+        GameEvents.ResetScore += ResetScores;
     }
 
     private void OnDisable()
     {
         GameEvents.AddScores -= AddScores;
+        GameEvents.ResetScore -= ResetScores;
     }
 
     private void AddScores(int scores)
     {
         currentScores_ += scores;
-        PlayerPrefs.SetInt("Score", currentScores_);
+        PlayerPrefs.SetInt("Puntos", currentScores_);
         UpdateScoreText();
     }
 
@@ -34,5 +36,12 @@ public class Scores : MonoBehaviour
     {
         PuntoOxxos.text = "PuntOxxos: "+currentScores_.ToString();
         PuntoOxxos2.text = "PuntOxxos: "+currentScores_.ToString();
+    }
+
+    private void ResetScores()
+    {
+        currentScores_ = 0;
+        PlayerPrefs.SetInt("Puntos", currentScores_);
+        UpdateScoreText();
     }
 }
